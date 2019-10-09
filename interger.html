@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to sort the array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="mengurutkannomor"></p>
+
+<script>
+var no = ["4", "2", "3", "1","7"];
+document.getElementById("mengurutkannomor").innerHTML = no;
+
+function myFunction() {
+    no.sort();
+    document.getElementById("mengurutkannomor").innerHTML = no;
+}
+</script>
+
+</body>
+</html>
